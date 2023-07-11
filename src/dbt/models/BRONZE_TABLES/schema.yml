@@ -1,0 +1,27 @@
+version: 2
+
+models:
+  - name: BRONZE_TABLE_AGENT
+    description: "A starter dbt model"
+
+  - name: BRONZE_TABLE_PRICE
+    description: "A starter dbt model"
+
+  - name: BRONZE_TABLE_EXEC
+    description: "A starter dbt model"
+
+  - name: BRONZE_TABLE_ORDER
+    description: "A starter dbt model"
+
+  - name: BRONZE_TABLE_DAY
+    description: "Table corresponding to Day data"
+
+  - name: BRONZE_TABLE_ESG
+    description: "A starter dbt model"
+
+sources:
+  - name: TRADE_DB
+    database: TRADE_DB
+    schema: PUBLIC
+    tables:
+      - name: RAW

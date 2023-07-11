@@ -1,0 +1,13 @@
+ESG_TRADE:
+  outputs:
+    dev:
+      account: au42629.eu-central-1
+      database:
+      password:
+      user:
+      role: DATADAY
+      schema: PUBLIC
+      threads: 1
+      type: snowflake
+      warehouse: DATADAY_WH
+  target: dev
