@@ -1,1 +1,7 @@
 .idea/
+
+target/
+logs/
+
+# Spécifique à DBT
+.user.yml
