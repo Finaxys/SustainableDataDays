@@ -19,7 +19,7 @@ CREATE DATABASE TRADER_ACCOUNT_01;
 ### GITPOD Configuration
 
 Start a gitpod environment by opening in your browser the following URL :
-https://gitpod.io#https://github.com/Finaxys/trader-esg-dbt/tree/workshop
+https://gitpod.io#https://github.com/Finaxys/SustainableDataDay
 
 ### DBT Configuration
 
