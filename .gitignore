@@ -5,3 +5,4 @@ logs/
 
 # Spécifique à DBT
 .user.yml
+.DS_Store
