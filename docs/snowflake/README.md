@@ -1,11 +1,16 @@
 # Sustainable Data Day 1 : Data Acquisition with Snowflake
 
-The first day cover data acquisition and storage in a modern data platform.
+The first day cover data acquisition and storage in a **Cloud Data Management Platform**.
 
-We will use [Snowflake](https://www.snowflake.com) as **Cloud Data Management System**. It is fully managed (SaaS), fast, flexible and user-friendly.
-It covers not only data storage, but also processing and analysis. It is cloud-agnostic, as it operates across Amazon Web Services (AWS), Microsoft Azure or Google Cloud Platform(GCP).
+For this, we will use [Snowflake](https://www.snowflake.com). It is fully managed (SaaS), fast, flexible and user-friendly.
+It covers not only data storage, but also processing and analysis. 
+It is cloud-agnostic, as it operates across Amazon Web Services (AWS), Microsoft Azure or Google Cloud Platform(GCP).
 Snowflake has a **pay-as-you-go** pricing model meaning that the cost is related to your usage of the platform.
-Even if some featurs used in this workshop are still unique to Snowflake, you should be able to adapt to other DBMS such as PostgreSQL (on premise), Azure Synapse Analytics (Cloud) or Google Big Query (Cloud).
+Even if some features used in this workshop are still unique to Snowflake, you should be able to adapt to other Cloud Data Platform like Azure Synapse Analytics, Google Big Query or Databricks stack.
+
+Snowflake offers a 30 days free trial, so you can run the tutorial without issue.
+
+If you haven't already, register for a [Snowflake free 30-day trial](https://signup.snowflake.com/). The Snowflake edition (Standard, Enterprise, Business Critical, e.g.), cloud provider (AWS, Azure, e.g.), and Region (US East, EU, e.g.) do not matter for this workshop. We suggest you select the region which is physically closest to you and the Enterprise Edition, the most popular offering. After registering, you will receive an email with an activation link and your Snowflake account URL.
 
 During Sustainable Data Days workshops, we use two distinct finance activities:
 - Trading via a market exchange simulator (Atom)
